@@ -1,8 +1,6 @@
 /* Reseteo márgenes browser*/
 body {
   margin: 0 auto;
-  background:url(img/woman_laptop.jpg) no-repeat fixed center center;
- background-size: cover;
 }
 
 #name{
@@ -29,7 +27,7 @@ header{
  }
 
  /*selector de clase descendiente*/
-.botones button{
+button{
   padding: 10px 20px 10px;
   border-radius: 5px;
   font-size: 20px;
@@ -41,4 +39,13 @@ header{
 button:hover {    /*si no quieres afectar otros botones si es que lo tienes, puedes hacer .botones button:hover  */
   background-color: black;
   color: white;
+}
+
+#welcome{
+  text-align: center;
+}
+
+#bienvenida{
+  text-align: center;
+  font-size: 26px;
 }
