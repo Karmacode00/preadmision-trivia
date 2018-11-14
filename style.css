@@ -49,3 +49,15 @@ button:hover {    /*si no quieres afectar otros botones si es que lo tienes, pue
   text-align: center;
   font-size: 26px;
 }
+
+#preguntaSeries{
+  text-align: center;
+  display: inline;
+}
+
+fieldset{
+  display: inline-block;
+  text-align: center;
+}
+
+
