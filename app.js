@@ -6,16 +6,25 @@ function screens() {
   document.getElementById('categorias').style.display='none';
 
 };
-function myFunction() {
-  let nombre =
-  document.getElementById('name').value;
+
+function inicio() {
+  let nombre = document.getElementById('name').value;
   document.getElementById('bienvenida').innerHTML = 'Bienvenida ' + nombre;
 
   document.getElementById('welcome').style.display = 'none';
   document.getElementById('categorias').style.display ='block';
-  document.getElementById('timer').style.display='block';
+
 };
 
+function series() {
+
+  document.getElementById('categorias').style.display ='none';
+  document.getElementById('timer').style.display='block';
+}
+
+
+
+//Timer
 let timeleft = 30;
   let downloadTimer = setInterval(function(){
   timeleft--;

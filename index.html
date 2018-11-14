@@ -15,7 +15,7 @@
   <section>
       <div id="welcome">
           <input type="text" placeholder="ingresa tu nombre" id="name">
-          <button id="btn" onclick="myFunction()">Comenzar</button>
+          <button id="btn" onclick="inicio()">Comenzar</button>
         </div>    
           <p id="bienvenida"></p>
   </section>
@@ -23,15 +23,14 @@
         <h2>
           Elige la categoría para jugar
         </h2>
-      <div id="timer">
-          <p> Te quedan <span id="countdowntimer">30 </span> Segundos</p>
-      </div>
       <div class="botones">
-          <button id="categoria1">Series</button>
-          <button id="categoria2">Peliculas</button>
+          <button id="categoria1" onclick="series()">Series</button>
+          <button id="categoria2" onclick="peliculas()">Peliculas</button>
       </div>
-
   </section>
+  <div id="timer">
+      <p> Te quedan <span id="countdowntimer">30 </span> Segundos</p>
+  </div>
   <footer>
 
   </footer>
