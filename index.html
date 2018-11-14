@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Trivia Lab</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Asap|Niramit" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -29,14 +30,17 @@
       </div>
   </section>
   <section id="preguntaSeries">
+      <div id="timer">
+          <p> Te quedan <span id="countdowntimer">30 </span> Segundos</p>
+      </div>
     <div id="preguntaSeries1">
 
       <h2>1. ¿Cuál es el nombre completo de Bart?</h2>
       <fieldset>
-      <input type="radio" id="respuesta1" value="correcta"> <label for="respuesta1">Bartolomeo J. Simpson</label>
-      <input type="radio" id="respuesta2" value="incorrecta"> <label for="respuesta2">Bartolomeo K. Simpson</label>
-      <input type="radio" id="respuesta3" value="incorrecta"> <label for="respuesta3">Bartolomeo L. Simpson</label>
-      <input type="radio" id="respuesta4" value="incorrecta"> <label for="respuesta4">Bartolomeo H. Simpson</label>
+      <input type="radio" name="drone" id="respuesta1" value="1"> <label for="respuesta1">Bartolomeo J. Simpson</label>
+      <input type="radio" name="drone" id="respuesta2" value="0"> <label for="respuesta2">Bartolomeo K. Simpson</label>
+      <input type="radio" name="drone" id="respuesta3" value="0"> <label for="respuesta3">Bartolomeo L. Simpson</label>
+      <input type="radio" name="drone" id="respuesta4" value="0"> <label for="respuesta4">Bartolomeo H. Simpson</label>
       </fieldset>
       
     </div>
@@ -45,16 +49,16 @@
 
         <h2>2. ¿¿Cómo llega Rick a Atlanta en “The walking dead”??</h2>
         <fieldset>
-        <input type="radio" id="respuesta1" value="correcta"> <label for="respuesta1">Cocaína</label>
-        <input type="radio" id="respuesta2" value="incorrecta"> <label for="respuesta2">Dopamina</label>
-        <input type="radio" id="respuesta3" value="incorrecta"> <label for="respuesta3">Metanfetamina</label>
-        <input type="radio" id="respuesta4" value="incorrecta"> <label for="respuesta4">Azúcar</label>
+        <input type="radio" id="respuesta1" value="1"> <label for="respuesta1">Cocaína</label>
+        <input type="radio" id="respuesta2" value="0"> <label for="respuesta2">Dopamina</label>
+        <input type="radio" id="respuesta3" value="0"> <label for="respuesta3">Metanfetamina</label>
+        <input type="radio" id="respuesta4" value="0"> <label for="respuesta4">Azúcar</label>
         </fieldset>
         
       </div>
-
+      <button id="responder" onclick="next()">Siguiente</button>
   </section>
-  <button id="responder" onclick="next()">Siguiente</button>
+ 
   
   
   
@@ -66,9 +70,9 @@
   </section>
 
 </section>
-  <div id="timer">
-      <p> Te quedan <span id="countdowntimer">30 </span> Segundos</p>
-  </div>
+
+<div id="fin">Fin</div>
+
   <footer>
 
   </footer>
