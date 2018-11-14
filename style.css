@@ -1,0 +1,44 @@
+/* Reseteo márgenes browser*/
+body {
+  margin: 0 auto;
+  background:url(img/woman_laptop.jpg) no-repeat fixed center center;
+ background-size: cover;
+}
+
+#name{
+  font-size: 30px;
+  text-align: center;
+}
+
+header{
+  width: 100%;
+  background:#000000;
+  padding:1px;
+  text-align:center;
+  color:#FFFFFF;
+  font-size:30px;
+ }
+
+ h2{
+   text-align: center;
+ }
+
+ /*selector de clase*/
+.botones{
+   text-align: center;
+ }
+
+ /*selector de clase descendiente*/
+.botones button{
+  padding: 10px 20px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: darkgoldenrod;
+  margin: 2% 2% 6% 2%; 
+  border: none;
+}
+
+button:hover {    /*si no quieres afectar otros botones si es que lo tienes, puedes hacer .botones button:hover  */
+  background-color: black;
+  color: white;
+}
