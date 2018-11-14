@@ -13,11 +13,20 @@
       </p>
   </header>
   <section>
-      <div id="name"> </div>
+      <div id="welcome">
+          <input type="text" placeholder="ingresa tu nombre" id="name">
+          <button id="btn" onclick="myFunction()">Comenzar</button>
+        </div>    
+          <p id="bienvenida">
+      </section>
+      <section id="categorias">
       <div>
         <h2>
           Elige la categoría para jugar
         </h2>
+      </div>
+      <div id="timer">
+          <p> Te quedan <span id="countdowntimer">30 </span> Segundos</p>
       </div>
       <div class="botones">
           <button id="categoria1">Series</button>
